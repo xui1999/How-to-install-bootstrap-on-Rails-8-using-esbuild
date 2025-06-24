@@ -1,4 +1,4 @@
-# How to install bootstrap 8 using esbuild
+# How to install bootstrap on Rails 8 using esbuild
 
 Do not use Importmaps — It will not bring Popper files.
 
