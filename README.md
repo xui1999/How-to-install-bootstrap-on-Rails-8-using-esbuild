@@ -74,6 +74,11 @@ Fixing js files.
 -eagerLoadControllersFrom("controllers", application)
 +import { application } from "./application";
 ```
+
+`app/views/layouts/application.html.erb`
+```diff
+-<%= javascript_importmap_tags %>
+```
 <br>
 
 Install bootstrap javascript:
